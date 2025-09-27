@@ -1,4 +1,4 @@
-function insert_row() {
+function insert_Row() {
     // Get the table
     var table = document.getElementById("myTable");
 
@@ -10,6 +10,6 @@ function insert_row() {
     var cell2 = newRow.insertCell(1);
 
     // Fill cells with text
-    cell1.innerHTML = "New Cell 1";
-    cell2.innerHTML = "New Cell 2";
+    cell1.innerHTML = "New Cell1";
+    cell2.innerHTML = "New Cell2";
 }
